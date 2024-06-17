@@ -1,8 +1,8 @@
 # SRT
 > [**i-SRT:Aligning Large Multimodal Models for Videos by Iterative Self-Retrospective Judgement**](),            
-[Daechul Ahn*](https://dcahn12.github.io)<sup>1</sup>,
-Yura Choi*<sup>1</sup>,
-San Kim<sup>1</sup>,
+[Daechul Ahn*](https://dcahn12.github.io)<sup>1,3</sup>,
+Yura Choi*<sup>1,3</sup>,
+San Kim<sup>1,3</sup>,
 [Youngjae Yu](https://yj-yu.github.io/home/)<sup>1</sup>, 
 [Dongyeop Kang](https://dykang.github.io)<sup>2</sup>,
 [Jonghyun Choi](https://ppolon.github.io)<sup>3,&dagger;</sup>(*Equal Contribution)<br>

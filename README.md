@@ -1,5 +1,5 @@
 # 🚄 SRT
-> [**i-SRT:Aligning Large Multimodal Models for Videos by Iterative Self-Retrospective Judgment**](),            
+> [**i-SRT:Aligning Large Multimodal Models for Videos by Iterative Self-Retrospective Judgment**](https://arxiv.org/abs/2406.11280v1),            
 [Daechul Ahn*](https://dcahn12.github.io)<sup>1,3</sup>,
 [Yura Choi*](https://yuuraa.github.io)<sup>1,3</sup>,
 San Kim<sup>1,3</sup>,

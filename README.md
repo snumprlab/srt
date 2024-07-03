@@ -34,7 +34,7 @@ San Kim<sup>1,3</sup>,
 
 ### Evaluating the model 
     # out-domain video question answering
-    bash Evaluation/pipeline/ \
+    bash Evaluation/pipeline/outdomain_test_pipeline.sh \
         results \
         SNUMPR/isrt_video_llava_7b_9th
 

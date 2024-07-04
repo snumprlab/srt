@@ -45,7 +45,8 @@ San Kim<sup>1,3</sup>,
 ## Training
 - Coming soon
 
-
+## License
+GNU GENERAL PUBLIC LICENSE
 
 ## Acknowledgement
 - [LLaVA-Hound-DPO](https://github.com/RifleZhang/LLaVA-Hound-DPO): Our code is built upon the codebase from LLaVA-Hound-DPO

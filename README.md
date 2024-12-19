@@ -1,5 +1,5 @@
-# 🚄 SRT
-> [**i-SRT:Aligning Large Multimodal Models for Videos by Iterative Self-Retrospective Judgment**](https://arxiv.org/abs/2406.11280v1),            
+# ISR-DPO (AAAI'25)
+> [**ISR-DPO:Aligning Large Multimodal Models for Videos by Iterative Self-Retrospective DPO**](https://arxiv.org/abs/2406.11280v1),            
 [Daechul Ahn*](https://dcahn12.github.io)<sup>1,3</sup>,
 [Yura Choi*](https://yuuraa.github.io)<sup>1,3</sup>,
 San Kim<sup>1,3</sup>,
@@ -14,12 +14,13 @@ San Kim<sup>1,3</sup>,
 [![srt-model](https://img.shields.io/badge/Model-isrt__9th__7b-blue)](https://huggingface.co/SNUMPR/isrt_video_llava_7b_9th)
 [![isrt-paper](https://img.shields.io/badge/Paper-arxiv-green)](https://arxiv.org/pdf/2406.11280v1)
 
-> **Abstract:** *Aligning Video Large Multimodal Models (VLMMs) face challenges such as modality misalignment and verbose responses. Although iterative approaches such as self-rewarding or iterative direct preference optimization (DPO) recently showed a significant improvement in language model alignment, particularly on reasoning tasks, self-aligned models applied to large video-language models often result in lengthy and irrelevant responses. To address these challenges, we propose a novel method that employs self-retrospection to enhance both response generation and preference modeling, and call iterative self-retrospective judgment (i-SRT). By revisiting and evaluating already generated content and preference in loop, i-SRT improves the alignment between textual and visual modalities, reduce verbosity, and enhances content relevance. Our empirical evaluations across diverse video question answering benchmarks demonstrate that i-SRT significantly outperforms prior arts. We are committed to opensourcing our code, models, and datasets to encourage further investigation.*
+> **Abstract:** *Iterative self-improvement, a concept extending beyond personal growth, has found powerful applications in machine learning, particularly in transforming weak models into strong ones. While recent advances in natural language processing have shown its efficacy through iterative preference optimization, applying this approach to Video Large Multimodal Models (VLMMs) remains challenging due to modality misalignment. VLMMs struggle with this misalignment during iterative preference modeling, as the self-judge model often prioritizes linguistic knowledge over visual information. Additionally, iterative preference optimization can lead to visually hallucinated verbose responses due to length bias within the self-rewarding cycle. To address these issues, we propose Iterative Self-Retrospective Direct Preference Optimization (ISR-DPO), a method that uses self-retrospection to enhance preference modeling. This approach enhances the self-judge's focus on informative video regions, resulting in more visually grounded preferences. In extensive empirical evaluations across dieverse video question answering benchmarks, the ISR-DPO significantly outperforms the state of the art.*
 
 <!-- ## Approach -->
 ![Overview](assets/images/overview.png)
 
 ## Release
+- [12/10] Our paper is accepted to AAAI 2025!
 - [07/02] Upload model checkpoint & evaluation code
 - [06/17] Create repository, update README
 

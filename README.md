@@ -1,14 +1,14 @@
 # ISR-DPO (AAAI'25)
 > [**ISR-DPO:Aligning Large Multimodal Models for Videos by Iterative Self-Retrospective DPO**](https://arxiv.org/abs/2406.11280v1),            
-[Daechul Ahn*](https://dcahn12.github.io)<sup>1,3</sup>,
-[Yura Choi*](https://yuuraa.github.io)<sup>1,3</sup>,
-San Kim<sup>1,3</sup>,
-[Youngjae Yu](https://yj-yu.github.io/home/)<sup>1</sup>, 
-[Dongyeop Kang](https://dykang.github.io)<sup>2</sup>,
-[Jonghyun Choi](https://ppolon.github.io)<sup>3,&dagger;</sup>(*Equal Contribution)<br>
-<sup>1</sup>Yonsei University,
-<sup>2</sup>University of Minnesota,
-<sup>3</sup>Seoul National University<br>
+[Daechul Ahn*](https://dcahn12.github.io)<sup>1</sup>,
+[Yura Choi*](https://yuuraa.github.io)<sup>1,2</sup>,
+San Kim<sup>1</sup>,
+[Youngjae Yu](https://yj-yu.github.io/home/)<sup>2</sup>, 
+[Dongyeop Kang](https://dykang.github.io)<sup>3</sup>,
+[Jonghyun Choi](https://ppolon.github.io)<sup>1,&dagger;</sup>(*Equal Contribution)<br>
+<sup>1</sup>Seoul National University,
+<sup>2</sup>Yonsei University,
+<sup>3</sup>University of Minnesota<br>
 <sup>&dagger;</sup>Corresponding Author<br>
 
 [![srt-model](https://img.shields.io/badge/Model-isrt__9th__7b-blue)](https://huggingface.co/SNUMPR/isrt_video_llava_7b_9th)
